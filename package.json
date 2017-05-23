@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=4.1 <5",
+    "npm": ">=3.1 <4"
+  },
+  "scripts": {
+    "build": "node tools/build.js",
+    "debug": "node tools/debug.js"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "babel-core": "^5.6.18",
+    "babel-loader": "^5.1.4",
+    "babel-plugin-react-transform": "^1.0.3",
+    "child-process-promise": "^1.1.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "fs": "0.0.2",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13"
+  }
+}
